@@ -1,5 +1,9 @@
 # Русификатор для CharmCrab v1.0.8.0 Hollow Knight Lumafly
-Я перевёл описания амулетов на русский язык в моде Charm Crab для Hollow Knight. Подробнее о моде вставлю ниже.
+Я перевёл описания амулетов на русский язык в моде Charm Crab для Hollow Knight. 
+
+Так же расскажу как самому перевести любой мод в DLL, и как редактировать сам DLL файл. Заменим нужный текст в игре на свой таким способом.
+
+Подробнее о самом моде вставлю ниже.
 
 # ПРИМЕРЫ ПЕРЕВОДА
 БЫЛО:
@@ -21,9 +25,22 @@
 <img width="1264" height="580" alt="image" src="https://github.com/user-attachments/assets/c9f7522c-f97d-4df0-93df-7b3e6d5f757c" />
 
 ГОТОВО)
+Запускаем игру через Lumafly
+<img width="1228" height="1064" alt="image" src="https://github.com/user-attachments/assets/a0301dec-a915-4977-bfff-5bf07ba3c783" />
 
 
+# ГАЙД НА ЗАМЕНУ ТЕКСТА В .DLL МОДЕ (если кому интересно):
+Установил деассемблер [dnspy](https://dnspy.org/). Он позволяет открывать DLL файлы и редактировать код в нём, а так же сохранять все изменения обратно в DLL.
+Нашёл фразу из английского описания предмета в этом dll. Все нужные строки были в классе CharmData (данные амулетов) в его методе Description (описания) и заменил строки англ текста на рус.
+<img width="2560" height="1209" alt="image" src="https://github.com/user-attachments/assets/1b8cc156-b2a6-4119-a9a7-9b2a8f9ca507" />
+В этом окне меняем код и компилируем:
+<img width="2560" height="1400" alt="image" src="https://github.com/user-attachments/assets/859f3ebf-f5e1-44aa-88a3-27765ef9d73d" />
+Сохраняем DLL с нашими изменениями:
+<img width="2560" height="1400" alt="image" src="https://github.com/user-attachments/assets/900d59b3-6c41-429c-99f1-dc33e2d6f903" />
+Выбираем куда сохранять и нажимаем ОК:
+<img width="712" height="609" alt="image" src="https://github.com/user-attachments/assets/fced381a-0782-47f3-8b19-53dde532cb6c" />
 
+Всё, так и был сделан перевод.
 
 # ОРИГИНАЛЬНОЕ ОПИСАНИЕ МОДА НО НА РУССКОМ ЯЗЫКЕ (машинный перевод):
 # Charm Crab
@@ -122,4 +139,5 @@
 
 # Авторство артов
 Иконки новых амулетов — [Endermint](https://www.twitch.tv/endermint)
+
 
