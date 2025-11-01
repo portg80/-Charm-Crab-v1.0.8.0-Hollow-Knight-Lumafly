@@ -35,9 +35,12 @@
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/7d804d4d-6402-4289-889b-23f6cd6c076d" />
 
 # УСТАНОВКА РУСИФИКАТОРА:
-переходим в папку с модом:
+1) На скрине показано как скачать файлы, скачиваем zip архив. Распаковываем его, можно на рабочий стол, либо сразу в папку с модом с заменой (на шаге 3)
+<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/20fe2e04-56d7-4363-b2fe-710fd6753768" />
+
+2) Переходим в папку с модом:
 <img width="1228" height="1064" alt="image" src="https://github.com/user-attachments/assets/80d800e1-5b7d-4065-a823-86da0660390c" />
-заменяем эти два файла на мои:
+3) Заменяем эти два файла на мои:
 <img width="1264" height="580" alt="image" src="https://github.com/user-attachments/assets/c9f7522c-f97d-4df0-93df-7b3e6d5f757c" />
 
 ГОТОВО)
